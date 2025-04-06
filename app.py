@@ -4,7 +4,12 @@ import numpy as np
 from scipy.stats import zscore
 from io import StringIO
 
-st.set_page_config(page_title="Outlier Auto-Cleaner", page_icon="🧹")
+st.set_page_config(
+    page_title="Outlier Auto-Cleaner",
+    page_icon="🧹",
+    layout="centered"
+)
+
 st.title("🧹 Outlier Auto-Cleaner")
 st.write("Upload a CSV, choose a method, and clean out those pesky outliers!")
 
